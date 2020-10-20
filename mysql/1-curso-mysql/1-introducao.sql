@@ -18,4 +18,14 @@ insert into pessoa (id, nome, email) values
 (5, "Renato", "renato@mymail.com"),
 (6, "Sabrina", "sabrina@mymail.com");
 
+/*SELECT*/
 select * from pessoa;
+
+select nome from pessoa;
+
+select nome, email from pessoa;
+
+/*SELECT COM CLÁUSULA WHERE*/
+select email from pessoa where email = "ana@fakemail.com";
+
+select * from pessoa where email like "%@mymail.com";
