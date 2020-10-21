@@ -89,9 +89,19 @@ insert into fornecedor values
 (4, 'eletronicos'),
 (5, 'produtos gerais');
 
+/*ALTERAÇÕES*/
 
+alter table cliente change column telefone telefone_celular varchar(80);
+alter table cliente modify column telefone_celular varchar(90);
 
+/*SELECT*/
+/*Exibe cada registro ignorando os valores repetidos.*/
+select distinct codigo_fornecedor from produto;
 
+/*Seleciona todos os registros da tabela cliente que não tenham os nomes especificados*/
+SELECT * FROM cliente WHERE nome not in ('camila', 'Renato', 'janaina', 'rebeca');
+
+select * from cliente where nome like '%ia%';
 
 
 
