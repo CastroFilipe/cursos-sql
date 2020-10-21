@@ -10,10 +10,21 @@ create table if not exists cliente (
     endereco varchar(150)
 );
 
-create table if not exists estados ( 
+create table if not exists estado ( 
 	id bigint primary key,
     nome varchar(70) not null unique,
     sigla varchar(2) not null unique
+);
+
+create table if not exists produto ( 
+	id bigint primary key,
+    nome varchar(70) not null,
+    codigo_fornecedor bigint not null
+);
+
+create table if not exists fornecedor (
+	id bigint primary key,
+    nome varchar(80)
 );
 
 insert into cliente values 
@@ -38,7 +49,7 @@ insert into cliente values
 (19, "Renato", "renato@meudominio.com", "00 9999-9999", "Passagem da luz"),
 (20, "Camila", "camila@meudominio.com", "00 0000-9999", "Rua Abc");
 
-insert into estados values 
+insert into estado values 
 (1, "Acre", "AC"),
 (2, "Amapá", "AP"),
 (3, "Amazonas", "AM"),
@@ -47,8 +58,36 @@ insert into estados values
 (6, "Roraima", "RR"),
 (7, "Tocantins", "TO");
 
-select * from cliente;
+insert into produto values 
+(1,'Arroz', 1),
+(2,'Feijão', 2),
+(3,'Macarrão', 3),
+(4,'Frango', 4),
+(5,'Carne', 5),
+(6,'Pepino', 2),
+(7,'Tomate', 3),
+(8,'Cebola', 4),
+(9,'Espinafre', 3),
+(10,'Alho', 2),
+(22,'Melancia', 2),
+(33,'Maçã', 1),
+(44,'Beterraba', 4),
+(55,'Batata', 5),
+(66,'Manjericão', 3),
+(70,'Cupuaçu', 3),
+(80,'Lentilha', 2),
+(90,'Salame', 2),
+(100,'Manteiga', 2),
+(111,'Sal', 1),
+(126,'Açucar', 5),
+(144,'Pimenta do reino', 1);
 
+insert into fornecedor values
+(1, 'atacadao'),
+(2, 'Material de limpeza'),
+(3, 'industrial alimentos'),
+(4, 'eletronicos'),
+(5, 'produtos gerais');
 
 
 
