@@ -1,6 +1,6 @@
 
 
-# Cursos de sql
+# Cursos de SQL
 <a href="https://unlicense.org/" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/CastroFilipe/web-design-completo-origamid"></a>  
 
 O presente repositório contém os scripts SQL desenvolvidos durante estudos pessoais, através do acompanhamento de artigos ou diversos cursos realizados no youtube, udemy, etc.
@@ -13,5 +13,5 @@ O presente repositório contém os scripts SQL desenvolvidos durante estudos pes
 - **Principais tópicos abordados**: MySql; Workbench; DBeaver   
 - **Status**: :hourglass_flowing_sand: Em constante progresso...  
 - **Cursos realizados**:
-    - [Curso de MySql](https://www.youtube.com/playlist?list=PLA9FYWyBXCEb__gEq76pWxSyoDNrsNorh)
-
+    - [Curso de MySql](https://www.youtube.com/playlist?list=PLA9FYWyBXCEb__gEq76pWxSyoDNrsNorh)  
+    - [Curso em Vídeo MySQL](https://www.youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r)  
