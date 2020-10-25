@@ -5,6 +5,7 @@ SHOW TABLES;
 Select * from gafanhotos;
 select * from cursos;
 
+# Antes, fazer a importação dos dados presentes no arquivo Dump
 ##### COMANDO SELECT #####
 
 # Ordenando registro com ORDE BY
